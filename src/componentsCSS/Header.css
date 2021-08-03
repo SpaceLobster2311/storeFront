@@ -1,0 +1,18 @@
+.header {
+  height: 100px;
+  border: 3px solid black;
+}
+h1 {
+
+  text-align: left;
+
+  font-size: 50px;
+}
+
+.cart {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  width: 25px;
+  border: 1px solid black;
+}

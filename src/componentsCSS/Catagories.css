@@ -1,0 +1,19 @@
+.container {
+  
+  height: 80px;
+  width: 240px;
+  border-radius: 13px;
+}
+.title {
+  font-size: larger;
+}
+.list {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  padding-right: 50px;
+  text-align: left;
+  flex: 1;
+}
