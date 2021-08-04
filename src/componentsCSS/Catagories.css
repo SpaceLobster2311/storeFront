@@ -7,12 +7,17 @@
 .title {
   font-size: larger;
 }
-.list {
+.list-map {
   display: flex;
   list-style-type: none;
 }
 
 li {
+  padding-right: 50px;
+  text-align: left;
+  flex: 1;
+}
+.list-item {
   padding-right: 50px;
   text-align: left;
   flex: 1;

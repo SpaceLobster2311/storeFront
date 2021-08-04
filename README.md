@@ -19,36 +19,36 @@
 
 ## Application Architecure
 
-1. Begin with create-react-app
+1. Begin with create-react-app (COMPLETED)
 
-2. Install Material UI as a dependency
+2. Install Material UI as a dependency (COMPLETED)
 
-3. Write an App component that serves as the container for all sub-components of this application
+3. Write an App component that serves as the container for all sub-components of this application (COMPLETED)
 
-4. Create sub components
+4. Create sub components (COMPLETED)
 
-* Create A HEADER component which shows the name of your virtual store
-* Create  FOOTER component which shows your copyright and contact information
-* Create A Catagories component
+* Create A HEADER component which shows the name of your virtual store (COMPLETED)
+* Create  FOOTER component which shows your copyright and contact information (COMPLETED)
+* Create A Catagories component (COMPLETED)
   * Shows a list of all categories
   * Dispatches an action when one is clicked to "activate" it
 
-* A PRODUCTS component
+* A PRODUCTS component (IN PROGRESS) (Mostly Completed)
   * Displays a list of products associated with the selected category
 
 ## Constructing the Redux Store
 
-* Categories
+* Categories ( COMPLETED)
   * State should contain a list of categories as well as the active category
     * Each category should have a normalized name, display name, and a description
   * Create an action that will trigger the reducer to change the active category
   * Update the active category in the reducer when this action is dispatched
-* Products
-  * State should be a list of all products
+* Products (COMPLETED)
+  * State should be a list of all products (COMPLETED)
     * Each product should have a category association, name, description, price, inventory count
-  * Create an action that will trigger when the active category is changed
+  * Create an action that will trigger when the active category is changed (COMPLETED)
     * HINT: Multiple reducers can respond to the same actions
   * Create a reducer that will filter the products list based on the active category
-* Active Category
-  * tate should store active category
+* Active Category (COMPLETED)
+  * State should store active category
   * Other components (products, etc) might need to reference this
