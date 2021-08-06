@@ -52,3 +52,8 @@
 * Active Category (COMPLETED)
   * State should store active category
   * Other components (products, etc) might need to reference this
+
+  Add routing to the application
+Link every product to a page that displays the full product details
+Link the “Cart” summary in the header to a full shopping cart page with shipping/payment forms
+Additionally, we will be swapping out our Redux store and replacing it with a store built using Redux Toolkit
